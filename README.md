@@ -56,3 +56,12 @@ Luego puedes clonar este repositorio en tu máquina local y tener todos los arch
 
 ![imagen](https://www.freecodecamp.org/news/content/images/2020/06/Screenshot-2020-06-23-at-5.47.48-AM.png)
 
+## Como clonar un Git Branches 
+Mientras que puedes clonar los repositorios con el comando git clone, ten en cuenta que este clona la branch y el HEAD remoto. Normalmente es la master por defecto e incluye todas las demás ramas del repositorio.
+
+Así que cuando clonas un repositorio, clonas master y todas las demás branches. Esto significa que tendrás que revisar otra rama tú mismo.
+
+Digamos que tu tarea en un proyecto es trabajar en una característica para agregar autenticación sin contraseña a un tablero de usuario. Y esta característica está en la branch passwordless-auth.
+
+![imagen](https://www.freecodecamp.org/news/content/images/2020/06/Screenshot-2020-06-22-at-2.47.53-AM.png)
+
