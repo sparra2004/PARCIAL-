@@ -44,7 +44,7 @@ Existen varios tipos de SYS como:
 
 Existen muchos mas, pero cada uno cumple con diferente funcionamiento dependiendo de lo que requieras en el programa.
 
-##¿COMO CLONAR UNA RAMA EN GIT?
+## ¿COMO CLONAR UNA RAMA EN GIT?
 
 Cuando se trabaja en un proyecto, es probable que tenga características diferentes. Y múltiples colaboradores estarán trabajando en este proyecto y sus características.
 Las branches permiten crear un "playground" con los mismos archivos en la master branch. Puedes usar este branch para construir características independientes, probar nuevas características, hacer cambios de últimas hora, crear correcciones, escribir documentos o probar ideas sin romper o afectar el código de producción. Cuando termines, fusiona el branch al master branch de producción.
