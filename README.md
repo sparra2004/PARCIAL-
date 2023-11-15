@@ -1,5 +1,5 @@
 # PARCIAL-
-Integrantes: Juan Manuel Ramirez y Santiago Parra 
+### Integrantes: Juan Manuel Ramirez y Santiago Parra 
 
 get_byte_representation: Esta funcion toma un caracter como entrada y devuelve su representacion en byte como una cadena de ocho bits.
 
