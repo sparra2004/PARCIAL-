@@ -63,5 +63,17 @@ Así que cuando clonas un repositorio, clonas master y todas las demás branches
 
 Digamos que tu tarea en un proyecto es trabajar en una característica para agregar autenticación sin contraseña a un tablero de usuario. Y esta característica está en la branch passwordless-auth.
 
+Realmente no necesitas la master branch ya que tu "feature branch" se fusionará con master después. ¿Cómo clonas entonces la branch de passwordless-auth sin buscar todas las demás ramas con "un montón de archivos que no necesitas"?
+
+He creado este repositorio de muestra para explicar esto. Este repositorio contiene un simple blog construido con Nextjs y tiene cuatro ramas ficticias:
+
+master
+dev
+staging
+passwordless-auth
+En Nextjs, cualquier archivo dentro de la carpeta pages/api es mapeado a la ruta /api/* y será tratado como un endpoint de la API en lugar de un page. En nuestro repositorio, he creado diferentes APIs ficticias en este directorio para que cada branch sea diferente.
+
+La master branch contiene el archivo pages/api/hello.js mientras que passwordless-auth contiene el archivo pages/api/auth.js. Cada archivo devuelve una respuesta de texto ficticio. Ve la respuesta del hello API de master aquí (¿Con un mensaje especial para ti?).
+
 ![imagen](https://www.freecodecamp.org/news/content/images/2020/06/Screenshot-2020-06-22-at-2.47.53-AM.png)
 
