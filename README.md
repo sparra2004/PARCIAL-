@@ -72,3 +72,23 @@ La master branch contiene el archivo pages/api/hello.js mientras que passwordles
 
 ![imagen](https://www.freecodecamp.org/news/content/images/2020/06/Screenshot-2020-06-22-at-2.47.53-AM.png)
 
+## Cómo Clonar una Branch Específica
+Ahora vamos a clonar una branch específica de nuestro repositorio de demostración. Hay dos maneras de clonar una branch específica. Puedes hacer cualquiera de ellas:
+
+Clonar el repositorio, obtener todas las branches, y hacer un checkout a una branch específica inmediatamente.
+Clonar el repositorio y obtener sólo una branch.
+
+![image](https://github.com/sparra2004/PARCIAL-/assets/147517210/fabfbb65-8b42-48b7-837f-319c645f53a8)
+
+Con esto, se obtienen todas las branches del repositorio, se hace un checkout a la que se ha especificado, y la rama específica se convierte en la branch local configurada para git push y git pull. Pero aún así, obtuviste todos los archivos de cada branch.
+
+![image](https://github.com/sparra2004/PARCIAL-/assets/147517210/9b8d271d-6d5b-45a5-b43a-559c98b99f4b)
+
+Esto realiza la misma acción que la opción uno, excepto que la opción --single-branch fue introducida en la versión 1.7.10 y posteriores de Git. Te permite sólo recuperar archivos de la branch especificada sin recuperar otras ramas.
+
+
+SI quieres navegar en GIT HUB, a continuacion te dejo el link:	[GIT HUB](https://github.com/)
+
+
+
+
