@@ -27,3 +27,26 @@ Pide al usuario ingresar una palabra y muestra la representación en byte de cad
 ![image](https://github.com/sparra2004/PARCIAL-/assets/147517210/4c470f7b-a103-4d1f-81de-381feb6471aa)
 
 Es la función principal que ejecuta un bucle para mostrar un menú interactivo. Dependiendo de la opción seleccionada por el usuario, llama a las funciones correspondientes.
+
+
+## LIBRERIA SYS
+
+Este módulo provee acceso a algunas variables usadas o mantenidas por el intérprete y a funciones que interactúan fuertemente con el intérprete. 
+Existen varios tipos de SYS como:
+
+- sys.abiflags
+- sys.addaudithook
+- sys.argv
+- sys.audit
+- sys.exit
+- sys.base_exec_prefix
+- etc.
+
+Existen muchos mas, pero cada uno cumple con diferente funcionamiento dependiendo de lo que requieras en el programa.
+
+##¿COMO CLONAR UNA RAMA EN GIT?
+
+Cuando se trabaja en un proyecto, es probable que tenga características diferentes. Y múltiples colaboradores estarán trabajando en este proyecto y sus características.
+Las branches permiten crear un "playground" con los mismos archivos en la master branch. Puedes usar este branch para construir características independientes, probar nuevas características, hacer cambios de últimas hora, crear correcciones, escribir documentos o probar ideas sin romper o afectar el código de producción. Cuando termines, fusiona el branch al master branch de producción.
+
+
